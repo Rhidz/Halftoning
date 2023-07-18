@@ -28,18 +28,23 @@ Image before any of the following algorithms are applied:
 
 * Error Diffusion:
 
+  #### Error diffusion is a technique used in halftoning to distribute the quantization error, which occurs when representing continuous tones using a limited set of discrete levels or colors, across neighboring pixels. It is commonly employed to achieve high-quality halftone images with smoother transitions and reduced visibility of artifacts. In the process of error diffusion, each pixel in an image is quantized based on a predefined threshold or quantization table. The quantization error, which is the difference between the original pixel value and the quantized value, is then distributed to the neighboring pixels in a controlled manner. The basic idea behind error diffusion is to consider the future pixels during the quantization of the current pixel. The quantization error is distributed to the neighboring pixels, typically in a weighted manner, based on their proximity and influence on the current pixel. This distribution helps spread out the error and compensates for the loss of information due to the limited number of available levels.
+
   <img src="https://github.com/Rhidz/Halftoning/blob/main/dog_ed.png" align="center"
      width="400" height="400">
 
 * Blue Noise Dithered Image:
+
+  #### Blue noise refers to a specific type of noise that exhibits desirable properties when used in halftoning and other image processing applications. It is a type of random noise with a spectral distribution that emphasizes higher frequencies while minimizing low-frequency components.
 
   <img src="https://github.com/Rhidz/Halftoning/blob/main/blue.png" align="center"
      width="400" height="400">
 
 * White Noise Dithered Image:
 
+    #### White noise in halftoning refers to a type of random noise that is evenly distributed across all frequencies. It is named "white" because it is analogous to white light, which contains an equal amount of energy across the visible spectrum.
+
   <img src="https://github.com/Rhidz/Halftoning/blob/main/white.png" align="center"
      width="400" height="400">
-  
 
   
