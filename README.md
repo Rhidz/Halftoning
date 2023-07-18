@@ -20,6 +20,8 @@ Image before any of the following algorithms are applied:
      width="400" height="400">
 
 * Independent Quantization:
+   
+  #### In the context of grayscale images, independent quantization refers to the process of quantizing the intensity values of each pixel independently. Instead of treating the entire grayscale image as a whole, independent quantization analyzes and quantizes the intensity values of individual pixels separately. Typically, grayscale images represent each pixel's intensity with a single value, ranging from black (minimum intensity) to white (maximum intensity). When applying independent quantization in halftoning grayscale images, the goal is to transform these continuous intensity values into a limited set of discrete tones or levels.
 
   <img src="https://github.com/Rhidz/Halftoning/blob/main/dod_iq.png" align="center"
      width="400" height="400">
